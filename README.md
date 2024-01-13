@@ -24,9 +24,10 @@ If you want to remove a branch from the remote repository , follow these steps:
 Open your terminal or command prompt.
 
 Run the following command to delete the remote branch:
-
+```
    ```bash
    git push origin --delete branch_name
+   
 
 ### Remove Remotely
 
