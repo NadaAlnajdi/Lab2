@@ -16,7 +16,7 @@ To remove a branch locally, you can use the following steps:
 
    ```bash
    git branch -d branch_name
-   
+   ```
 ### Remove Remotely
 
 If you want to remove a branch from the remote repository , follow these steps:
@@ -24,10 +24,10 @@ If you want to remove a branch from the remote repository , follow these steps:
 Open your terminal or command prompt.
 
 Run the following command to delete the remote branch:
-```
+
    ```bash
    git push origin --delete branch_name
-   
+   ```
 
 ### Remove Remotely
 
@@ -39,7 +39,7 @@ To list tags locally, run the following command in your terminal or command prom
 
 ```bash
 git tag
-
+```
 This command will display a list of all tags in your local repository.
 
 ### Remotely
@@ -47,7 +47,7 @@ This command will display a list of all tags in your local repository.
 To list tags on the remote repository, run the following command:
  ```bash
  git ls-remote --tags origin
-
+```
 
 ## Deleting Tags
 
@@ -57,12 +57,12 @@ To delete a tag locally, run the following command in your terminal or command p
 
  ```bash
  git tag -d <tag_name>
-
+```
 ### Remotely
 To delete a tag from the remote repository, run the following command:
  ```bash
  git push origin --delete <tag_name>
-
+```
 
 
 
