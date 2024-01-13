@@ -29,8 +29,6 @@ Run the following command to delete the remote branch:
    git push origin --delete branch_name
    ```
 
-### Remove Remotely
-
 
 ## Listing Tags
 ### Locally
